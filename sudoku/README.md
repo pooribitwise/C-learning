@@ -53,3 +53,8 @@ used for reseting the color to it's default
 |<span style="color:green;">4</span> <span style="color:green;">2</span> <span style="color:green;">3</span>|<span style="color:green;">1</span> 5 <span style="color:green;">7</span>|<span style="color:green;">9</span> 8 <span style="color:green;">6</span>|
 -------------------
 </pre>
+<img width="158" height="185" alt="9x9" src="https://github.com/user-attachments/assets/95ede47f-d972-4bdd-a629-6f9df3e87eed" />
+<br>
+and here is for 16\*16 (formatting is dynamicly applied to table dimensions)
+<br>
+<img width="399" height="321" alt="16x16" src="https://github.com/user-attachments/assets/c0198e6b-876b-4463-946b-a51f88f918bc" />
