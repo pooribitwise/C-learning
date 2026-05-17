@@ -19,10 +19,12 @@ define suitable coloring syntax for your desired output, the __linux__ one is fo
 used for reseting the color to it's default
 ## Usage
 1. `./main`
-2. enter your puzzle dimension
-`9`
+2. enter your puzzle dimension (custom and no limits in theory, but bigger than 16\*16 cannot be solved in time)
+```bash
+9
+```
 3. fill the table, use 0 for blank numbers
-`
+```bash
 5 0 0   4 0 0   1 0 0
 3 0 0   0 0 5   0 0 7
 0 9 0   0 0 3   5 0 0
@@ -34,20 +36,20 @@ used for reseting the color to it's default
 0 0 6   0 0 0   4 0 0
 0 0 1   0 0 9   2 0 0
 0 0 0   0 5 0   0 8 0
-`
+```
 4. press enter, and your sudoku will be solved and printed with prettified format:
-`
+<pre>
 -------------------
-|5 <span style="color":"green";>6</span> <span style="color":"green";>7</span>|4 <span style="color":"green";>8</span> <span style="color":"green";>2</span>|1 <span style="color":"green";>9</span> <span style="color":"green";>3</span>|
-|3 <span style="color":"green";>4</span> <span style="color":"green";>2</span>|<span style="color":"green";>9</span> <span style="color":"green";>1</span> 5|<span style="color":"green";>8</span> <span style="color":"green";>6</span> 7|
-|<span style="color":"green";>1</span> 9 <span style="color":"green";>8</span>|<span style="color":"green";>6</span> <span style="color":"green";>7</span> 3|5 <span style="color":"green";>2</span> <span style="color":"green";>4</span>|
+|5 <span style="color:green;">6</span> <span style="color:green;">7</span>|4 <span style="color:green;">8</span> <span style="color:green;">2</span>|1 <span style="color:green;">9</span> <span style="color:green;">3</span>|
+|3 <span style="color:green;">4</span> <span style="color:green;">2</span>|<span style="color:green;">9</span> <span style="color:green;">1</span> 5|<span style="color:green;">8</span> <span style="color:green;">6</span> 7|
+|<span style="color:green;">1</span> 9 <span style="color:green;">8</span>|<span style="color:green;">6</span> <span style="color:green;">7</span> 3|5 <span style="color:green;">2</span> <span style="color:green;">4</span>|
 -------------------
-|2 <span style="color":"green";>1</span> <span style="color":"green";>9</span>|7 <span style="color":"green";>4</span> <span style="color":"green";>6</span>|<span style="color":"green";>3</span> <span style="color":"green";>5</span> <span style="color":"green";>8</span>|
-|<span style="color":"green";>7</span> <span style="color":"green";>3</span> 4|<span style="color":"green";>5</span> <span style="color":"green";>9</span> 8|<span style="color":"green";>6</span> <span style="color":"green";>1</span> <span style="color":"green";>2</span>|
-|6 <span style="color":"green";>8</span> <span style="color":"green";>5</span>|<span style="color":"green";>2</span> <span style="color":"green";>3</span> <span style="color":"green";>1</span>|<span style="color":"green";>7</span> <span style="color":"green";>4</span> 9|
+|2 <span style="color:green;">1</span> <span style="color:green;">9</span>|7 <span style="color:green;">4</span> <span style="color:green;">6</span>|<span style="color:green;">3</span> <span style="color:green;">5</span> <span style="color:green;">8</span>|
+|<span style="color:green;">7</span> <span style="color:green;">3</span> 4|<span style="color:green;">5</span> <span style="color:green;">9</span> 8|<span style="color:green;">6</span> <span style="color:green;">1</span> <span style="color:green;">2</span>|
+|6 <span style="color:green;">8</span> <span style="color:green;">5</span>|<span style="color:green;">2</span> <span style="color:green;">3</span> <span style="color:green;">1</span>|<span style="color:green;">7</span> <span style="color:green;">4</span> 9|
 -------------------
-|<span style="color":"green";>9</span> <span style="color":"green";>5</span> 6|<span style="color":"green";>8</span> <span style="color":"green";>2</span> <span style="color":"green";>4</span>|4 <span style="color":"green";>3</span> <span style="color":"green";>1</span>|
-|<span style="color":"green";>8</span> <span style="color":"green";>7</span> 1|<span style="color":"green";>3</span> <span style="color":"green";>6</span> 9|2 <span style="color":"green";>7</span> <span style="color":"green";>5</span>|
-|<span style="color":"green";>4</span> <span style="color":"green";>2</span> <span style="color":"green";>3</span>|<span style="color":"green";>1</span> 5 <span style="color":"green";>7</span>|<span style="color":"green";>9</span> 8 <span style="color":"green";>6</span>|
+|<span style="color:green;">9</span> <span style="color:green;">5</span> 6|<span style="color:green;">8</span> <span style="color:green;">2</span> <span style="color:green;">4</span>|4 <span style="color:green;">3</span> <span style="color:green;">1</span>|
+|<span style="color:green;">8</span> <span style="color:green;">7</span> 1|<span style="color:green;">3</span> <span style="color:green;">6</span> 9|2 <span style="color:green;">7</span> <span style="color:green;">5</span>|
+|<span style="color:green;">4</span> <span style="color:green;">2</span> <span style="color:green;">3</span>|<span style="color:green;">1</span> 5 <span style="color:green;">7</span>|<span style="color:green;">9</span> 8 <span style="color:green;">6</span>|
 -------------------
-`
+</pre>
